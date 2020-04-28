@@ -1,0 +1,15 @@
+..\..\output\queue.o: ..\..\FreeRtos\queue.c
+..\..\output\queue.o: D:\keil_c51\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\queue.o: D:\keil_c51\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\queue.o: ..\..\FreeRtos\include\FreeRTOS.h
+..\..\output\queue.o: D:\keil_c51\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\queue.o: D:\keil_c51\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\queue.o: ..\..\FreeRtos\include\FreeRTOSConfig.h
+..\..\output\queue.o: ..\..\FreeRtos\include\projdefs.h
+..\..\output\queue.o: ..\..\FreeRtos\include\portable.h
+..\..\output\queue.o: ..\..\FreeRtos\include\deprecated_definitions.h
+..\..\output\queue.o: ..\..\FreeRtos\include\portmacro.h
+..\..\output\queue.o: ..\..\FreeRtos\include\mpu_wrappers.h
+..\..\output\queue.o: ..\..\FreeRtos\include\task.h
+..\..\output\queue.o: ..\..\FreeRtos\include\list.h
+..\..\output\queue.o: ..\..\FreeRtos\include\queue.h

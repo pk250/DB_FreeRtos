@@ -1,0 +1,28 @@
+#ifndef __GPIO_H_
+#define __GPIO_H_
+
+#include "stm32f10x.h"
+
+#define LED_ERROR_PIN GPIO_Pin_0
+#define LED_ERROR_PORT GPIOA
+#define LED_ERROR_ON GPIO_ResetBits(LED_ERROR_PORT,LED_ERROR_PIN)
+#define LED_ERROR_OFF GPIO_SetBits(LED_ERROR_PORT,LED_ERROR_PIN)
+
+#define LED_433_PIN GPIO_Pin_1
+#define	LED_433_PORT GPIOF
+#define LED_433_ON GPIO_ResetBits(LED_433_PORT,LED_433_PIN)
+#define LED_433_OFF GPIO_SetBits(LED_433_PORT,LED_433_PIN)
+
+#define LED_BLE_PIN GPIO_Pin_4
+#define LED_BLE_PORT GPIOF
+#define LED_BLE_ON GPIO_ResetBits(LED_BLE_PORT,LED_BLE_PIN)
+#define LED_BLE_OFF GPIO_SetBits(LED_BLE_PORT,LED_BLE_PIN)
+
+#define SET_433_PIN GPIO_Pin_1
+#define SET_433_PORT GPIOA
+#define SET_433_ON GPIO_SetBits(SET_433_PORT,SET_433_PIN)
+#define SET_433_OFF GPIO_ResetBits(SET_433_PORT,SET_433_PIN)
+
+void LED_SET_Init(void);
+
+#endif
